@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    font-family: cursive;
+    background-color: aqua;
+}
+.main{
+    position: absolute;
+    background-color: antiquewhite;
+    width: 400px;
+    
+    padding:10px ;
+   top: 30%;
+   left: 40%;
+   border: 3px solid;
+   border-radius: 10px;
+   
+   
+
+}
+.heading{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.guess{
+    font-size: 30px;
+    text-align: center;
+    visibility: hidden;
+}
+
+#input{
+   width: 60%;
+   border: 2px solid transparent;
+   border-radius: 5px;
+   padding:5px;
+}
+#btn{
+    position: relative;
+    font-size: 19px;
+    font-family: cursive;
+    padding:0 5px 0;
+    /* width: 80px; */
+    background:transparent;
+    border-radius: 5px;
+   margin:0 41% ;
+    margin-top: 7px;
+    cursor: pointer;
+
+    
+    
+}
